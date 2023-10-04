@@ -1,3 +1,33 @@
 @import "./tailwindv2.base.min.css";
 @tailwind components;
 @tailwind utilities;
+
+/* =================
+@ react-quill
+==================== */
+
+.ql-editor h2 {
+  font-size: 1.5rem !important;
+}
+
+.ql-editor h3 {
+  font-size: 1.3rem !important;
+}
+
+.ql-size-15px { font-size: 15px; }
+.ql-size-18px { font-size: 18px; }
+.ql-size-24px { font-size: 24px; }
+.ql-size-32px { font-size: 32px; }
+.ql-size-48px { font-size: 48px; }
+
+.ql-formats--custom button {
+  background: #1677FF !important;
+  width: 100% !important;
+  height: 32px !important;
+  padding: 4px 15px !important;
+}
+
+.ql-formats--custom button:hover, .ql-formats--custom button:focus {
+  color: #FFF !important;
+  background-color: #4096FF !important;
+}
